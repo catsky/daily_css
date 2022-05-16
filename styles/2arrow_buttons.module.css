@@ -1,0 +1,36 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.button__arrow {
+  background-color: transparent;
+  height: 12px;
+  width: 12px;
+}
+
+.button__arrow--up {
+  border-left: 1px solid royalblue;
+  border-top: 1px solid royalblue;
+  transform: translateY(25%) rotate(45deg);
+}
+
+.button__arrow--right {
+  border-right: 1px solid royalblue;
+  border-bottom: 1px solid royalblue;
+  transform: translateX(25%) rotate(-45deg);
+}
+
+.button__arrow--down {
+  border-right: 1px solid royalblue;
+  border-bottom: 1px solid royalblue;
+  transform: translateY(25%) rotate(45deg);
+}
+
+.button__arrow--left {
+  border-left: 1px solid royalblue;
+  border-bottom: 1px solid royalblue;
+  transform: rotate(45deg);
+}
