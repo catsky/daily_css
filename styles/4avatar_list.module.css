@@ -1,0 +1,42 @@
+.avatar {
+  display: flex;
+}
+
+.avatar__item {
+  width: 64px;
+  height: 64px;
+  margin-left: -4px;
+}
+
+.avatar__image {
+  background-color: purple;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white;
+  display: flex;
+}
+
+.avatar__image__next {
+  border-radius: 50%;
+}
+
+/* .avatar {
+  display: flex;
+}
+
+.avatar__item {
+  margin-left: -4px;
+  width: 64px;
+  height: 64px;
+}
+.avatar__image {
+  background-color: purple;
+  box-shadow: 0 0 0 4px #fff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.avatar__image__next {
+  border-radius: 50%;
+} */
