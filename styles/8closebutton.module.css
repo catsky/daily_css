@@ -1,0 +1,23 @@
+.button {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border: 1px solid red;
+}
+
+.button__line {
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+.button__line--first {
+  transform: rotate(45deg);
+  top: 50%;
+}
+
+.button__line--second {
+  transform: rotate(-45deg);
+  top: 50%;
+}
