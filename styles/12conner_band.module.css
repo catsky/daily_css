@@ -1,0 +1,26 @@
+.container {
+  margin-left: 200px;
+  margin-top: 200px;
+  position: relative;
+}
+.container__wrapper {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.container__ribbon {
+  left: 2px;
+  position: absolute;
+  top: 32px;
+  height: 24px;
+  width: 206px;
+  background-color: red;
+  color: blue;
+  text-align: center;
+  transform: translateY(-35%) translateX(-35%) rotate(-45deg);
+}
