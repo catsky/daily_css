@@ -1,0 +1,30 @@
+.container {
+  background-color: blueviolet;
+  height: 200px;
+  width: 50%;
+  position: relative;
+  margin: 100px;
+}
+
+.container__docker {
+  /* position: absolute;
+  top: -34px;
+  right: -34px;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  background-color: aqua; */
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  display: flex;
+  color: white;
+  background-color: blue;
+  align-items: center;
+  justify-content: center;
+  transform: translate(50%, -50%);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
