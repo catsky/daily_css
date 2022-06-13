@@ -1,0 +1,27 @@
+.container {
+  /* background-color: royalblue; */
+  /* height: 500px; */
+  /* width: 100%; */
+  /* color: white; */
+  /* padding: 10px; */
+  line-height: 1.5rem;
+  position: relative;
+  border: 1px solid red;
+}
+
+.container__content {
+  height: 200px;
+  overflow-y: scroll;
+  border: 1px dashed blue;
+  margin: 2px;
+}
+
+.container__fading {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  height: 30px;
+  width: 100%;
+  background: linear-gradient(rgba(14, 14, 14, 0.01), #fff);
+  /* border: 2px solid green; */
+}
