@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 12px 0px;
+}
+
+.container__feature {
+  flex: 1;
+  margin-right: 16px;
+  border-right: 1px solid;
+}
+
+.container__model {
+  display: flex;
+  justify-content: center;
+  margin-right: 16px;
+  width: 164px;
+  border-right: 1px solid;
+}
