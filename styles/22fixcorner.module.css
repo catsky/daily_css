@@ -1,0 +1,38 @@
+.container {
+  height: 100vh;
+  background-color: aqua;
+  overflow: hidden;
+  position: relative;
+}
+
+.container__corner {
+  width: 128px;
+  height: 128px;
+  background-color: blueviolet;
+  position: absolute;
+}
+
+.container__corner--tr {
+  top: 0;
+  right: 0;
+  transform: rotate(45deg) translateY(-70%);
+}
+
+.container__corner--tl {
+  top: 0;
+  left: 0;
+  transform: rotate(-45deg) translateY(-70%);
+}
+
+.container__corner--bl {
+  bottom: 0;
+  left: 0;
+  transform: rotate(45deg) translateY(70%);
+  overflow: hidden;
+}
+
+.container__corner--br {
+  bottom: 0;
+  right: 0;
+  transform: rotate(-45deg) translateY(70%);
+}
