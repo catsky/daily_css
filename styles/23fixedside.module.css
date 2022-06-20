@@ -1,0 +1,10 @@
+.container {
+  position: fixed;
+  right: 0px;
+  width: 64px;
+  height: 188px;
+  background-color: aqua;
+  border: 1px solid;
+  top: 50%;
+  transform: translateY(-50%);
+}
