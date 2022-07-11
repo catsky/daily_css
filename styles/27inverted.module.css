@@ -1,0 +1,26 @@
+.container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inverted_corners {
+  background-color: bisque;
+  width: 10rem;
+  height: 4rem;
+  position: relative;
+}
+
+.inverted_corners::before {
+  content: '';
+  bottom: 0rem;
+  left: 0;
+  position: absolute;
+
+  height: 2rem;
+  width: 10rem;
+  background-color: #eaf3ff;
+  border-top-left-radius: 2rem;
+  /* box-shadow: 2rem 0px -2rem 0px 0px; */
+}
