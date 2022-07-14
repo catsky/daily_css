@@ -1,0 +1,23 @@
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex_item_left {
+  background-color: #ac4b4b;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.flex_item_right {
+  background-color: dodgerblue;
+  flex: 1;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  .flex_item_left {
+    flex: 100%;
+  }
+}
