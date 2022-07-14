@@ -1,0 +1,19 @@
+.container {
+  /* margin: 30px;
+  width: 300px;
+  height: 100%;
+  background-color: aqua;
+
+  line-height: 2rem;
+
+  background-image: linear-gradient(black 1px, transparent 0px);
+  background-size: 100% 2rem;
+  background-position-y: 24px; */
+  margin: 20px;
+  width: 300px;
+  line-height: 2rem;
+  background-color: beige;
+  background-image: linear-gradient(blue 1px, transparent 1px);
+  background-size: 100% 2rem;
+  background-position-y: 24px;
+}
