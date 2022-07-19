@@ -1,0 +1,104 @@
+/* .price_tag {
+  margin: 100px;
+  background-color: purple;
+  width: 70px;
+  height: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.price_tag::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: purple;
+  top: 2;
+  left: -10px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.price_tag::after {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: white;
+  top: 2;
+  left: -8px;
+
+} 
+*/
+
+.border {
+  margin: 20px;
+  width: 2rem;
+  height: 2rem;
+  background-color: aquamarine;
+
+  border-color: transparent rgba(0, 0, 0, 0.3) transparent transparent;
+  border-style: solid;
+  border-width: 1rem 1rem 1rem 1rem;
+  /* transform: translate(-100%, 0px); */
+}
+
+.price_tag {
+  margin: 30px;
+  width: 100px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+
+  /* Center the price */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  /* Used to position the triangle */
+  position: relative;
+
+  /* Size */
+  height: 2rem;
+
+  /* Spacing */
+  padding: 0.25rem 0.5rem;
+}
+
+/* The triangle */
+.price_tag::before {
+  content: '';
+
+  border-color: transparent rgba(0, 0, 0, 0.3) transparent transparent;
+  border-style: dashed;
+  border-width: 1rem 1rem 1rem 1rem;
+
+  /* Position */
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  transform: translate(-100%, 0px);
+}
+
+/* The dot */
+.price_tag::after {
+  content: '';
+
+  /* Make it like a cirle */
+  background: #fff;
+  border-radius: 50%;
+
+  /* Position */
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-0.5rem, -50%);
+  /* transform: translate(-0.5rem, -50%); */
+
+  /* Size */
+  height: 0.5rem;
+  width: 0.5rem;
+}
