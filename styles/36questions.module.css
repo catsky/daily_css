@@ -1,0 +1,11 @@
+.container {
+  margin: 10px;
+}
+
+.container__heading {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+}
