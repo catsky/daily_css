@@ -1,0 +1,44 @@
+.container {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 100px;
+  position: relative;
+  background-color: #ccc;
+}
+
+.container__side {
+  position: absolute;
+  border: 16px solid #ddd;
+  bottom: -8px;
+  z-index: -1;
+}
+
+.container__side__left {
+  border-left-color: transparent;
+  left: -24px;
+}
+
+.container__side__right {
+  border-right-color: transparent;
+  right: -24px;
+}
+
+.container__triangle {
+  position: absolute;
+  border: 8px solid transparent;
+  border-top-color: #aaa;
+  top: 100%;
+}
+
+.container__triangle__left {
+  left: 0px;
+  border-right-width: 0px;
+}
+
+.container__triangle__right {
+  right: 0px;
+  border-left-width: 0px;
+}
